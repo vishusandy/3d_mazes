@@ -156,7 +156,6 @@ def mobius_maze_mesh(grid, major_radius=5, minor_radius=1, thick=0.1, height=0.2
             # iterate outer cells in reverse column order
             outer_cell = grid.get(row=row0, col=cols-1)
             inner_cell = grid.get(row=row1, col=0)
-            print(f'stopping: outer={outer_cell.id} inner={inner_cell.id}')
             continue
         for col in range(cols):
             col_offset = col * col_verts
