@@ -5,15 +5,19 @@ Generate 3d maze meshes with Python in Blender.
 
 ## Maze Types
 
+Mobius strip mazes:
+
+![Mobius strip maze](images/mobius.png)
+
+Outer cube mazes (mazes along the outside faces of a cube):
+
+![Outer cube maze](images/outer_cube.png)
+
 Cube mazes:
 
 ![Cube maze](images/cube.png)
-Mobius strip mazes:
 
-![Outer cube maze](images/outer_cube.png)
-Outer cube mazes (mazes along the outside faces of a cube):
 
-![Mobius strip maze](images/mobius.png)
 
 ## Setup
 
