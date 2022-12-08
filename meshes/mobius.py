@@ -11,7 +11,7 @@ from math import *
 from mathutils import *
 from .maze2d import RectGrid
 
-stop_row = 9
+stop_row = -1
 
 # Note: Mobius grids should have many more rows than columns.
 #         Rows and columns are switched here when compared with other grids
