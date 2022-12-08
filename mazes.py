@@ -36,7 +36,7 @@ def new_cube(rows=6, cols=6, levels=6, clear=False, inset=0.15, show_outer_faces
     create_cube(grid, show_outer_faces=show_outer_faces)
 
 
-def new_mobius(rows=108, cols=10, res=54, save_image=False):
+def new_mobius(rows=108, cols=10, height=0.4, minor_radius=2, smooth=True, save_image=False):
     grid = Mobius(rows=rows, cols=cols, clear=False)
     algos.growing_tree(grid)
 
@@ -48,4 +48,4 @@ def new_mobius(rows=108, cols=10, res=54, save_image=False):
                       text_color=(55, 55, 55, 100))
 
     create_mobius_strip(grid, rows=rows, cols=cols,
-                        minor_radius=2, height=0.05, smooth=True)
+                        minor_radius=minor_radius, height=height, smooth=smooth)
